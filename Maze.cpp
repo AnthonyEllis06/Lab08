@@ -39,7 +39,8 @@ bool Maze::traverse(int row, int col)
 
    //DO THIS
    //test that the current grid location is a space (i.e. not a wall or already tried)
-   if (                                   )
+   double curr_element = maze->getElement(row,col)
+   if (curr_element != WALL && curr_element != TRIED)
    {
 
       //DO THIS
